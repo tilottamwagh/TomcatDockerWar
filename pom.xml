@@ -14,7 +14,7 @@
             <artifactId>maven-checkstyle-plugin</artifactId>
             <version>3.0.0</version>
             <configuration>
-                <configLocation>file:///C/Users/Nivaan/jenkins/workspace/TomcatDeployment/checkstyle.xml</configLocation>
+                <configLocation>file:///var/lib/jenkins/release/</configLocation>
             </configuration>
         </plugin>
     </plugins>
