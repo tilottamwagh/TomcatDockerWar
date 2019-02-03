@@ -7,18 +7,7 @@
   <version>0.0.2-SNAPSHOT</version>
   <name>JenkinsWar Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <reporting>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-checkstyle-plugin</artifactId>
-            <version>3.0.0</version>
-            <configuration>
-                <configLocation>file:///var/lib/jenkins/release/</configLocation>
-            </configuration>
-        </plugin>
-    </plugins>
-</reporting>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
